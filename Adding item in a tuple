@@ -1,0 +1,7 @@
+#adding item in a tuple
+t=tuple()
+n=int(input())
+for i in range(n):
+	d=input()
+	t+=(d,)
+print(t,type(t))
