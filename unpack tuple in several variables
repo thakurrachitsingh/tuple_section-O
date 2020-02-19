@@ -1,0 +1,6 @@
+#unpack tuple in several variables
+t=(10,12,2001)
+dd,mm,yyyy=t
+print('day',dd)
+print('month',mm)
+print('year',yyyy)
