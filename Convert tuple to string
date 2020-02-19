@@ -1,0 +1,4 @@
+#convert tuple to string
+t=(2,4,'selesh')
+k= str(t)
+print(k,type(k))
