@@ -1,0 +1,7 @@
+#Method to clear empety tuple from list
+t=[(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')]
+l=[]
+for i in t:
+	if i!=():
+		l.append(i)
+print(l,type(l))
